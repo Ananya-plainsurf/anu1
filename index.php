@@ -25,9 +25,9 @@ function get_dir($dir) {
                 {
 
                     echo "<li>";
-                    //echo $dir . "/" . $item->getFilename();
-                    echo '<a href= "'.$dir . '/' . $item->getFilename().'">'.$dir .
-                            "/" . $item->getFilename().'</a><br>';
+                    //$link= $dir . "/" . $item->getFilename();
+                    //echo "<a href= new.php>".$link."<br>";
+                    echo '<a href= new.php"'.$dir . '/' . $item->getFilename().'">'. $item->getFilename().'</a><br>';
                     echo "<br>";
                     echo "</li>";
                 }
